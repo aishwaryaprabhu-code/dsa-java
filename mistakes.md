@@ -58,5 +58,6 @@ if (arr == null || arr.length == 0) {
 3. Folder and file names: no spaces, no typos, same capitals every time. The file name matches the class name.
 4. Code goes in `.java` files. `mistakes.md` is for lessons only.
 5. Skip loops use `while`, not `if`, and keep `left < right`.
-
+6.Class names start with a capital, method names with a lowercase letter.
+7.String: s.length(). Array: arr.length.
 

@@ -1,4 +1,4 @@
-class StringBasics {
+class StringBasics_2 {
     public static void main(String[] args) {
         String s = "hello";
 

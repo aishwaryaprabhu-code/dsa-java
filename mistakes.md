@@ -4,6 +4,31 @@ A record of the mistakes I make while solving DSA problems and the concepts I le
 
 My goal is to understand my mistakes, improve my problem-solving skills, and avoid repeating the same mistakes.
 
+## Day 1 - Nov 7, 2026: Find Max, Two Sum, Contains Duplicate
+
+**Mistakes**
+- Didn't handle an empty or `null` array in `findMax`.
+- Created two folders (`Leetcode` and another) by typing the name differently.
+- File name had a space and a typo (`brute foce`).
+- Skipped the brute force and went straight to the HashMap.
+
+**Fix**
+```java
+if (arr == null || arr.length == 0) {
+    throw new IllegalArgumentException("Array cannot be null or empty");
+}
+```
+
+**Learned**
+- Check `arr == null` first, then `arr.length`. Handle edge cases before the main logic.
+- Put logic in separate methods.
+- Two pointers: `left` and `right` indices.
+- HashMap = element → count. HashSet = check if seen.
+- HashMap uses `Integer`, not `int`. Java converts automatically.
+- Two Sum: check the map first, then `put`.
+- Same folder name every time, no spaces in file names.
+
+**Revise:** write `findMax` and Two Sum again from scratch.
 
 
   -----------------------------------------------------------------------

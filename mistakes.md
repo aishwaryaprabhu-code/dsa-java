@@ -49,4 +49,14 @@ if (arr == null || arr.length == 0) {
 
 **Takeaway:** understand the conditions, don't memorise the code.
 
+--------------------------------------------------------------------------
+
+## Rules to remember (read before every session)
+
+1. Two Sum: check the map first, then `put`.
+2. Check `null` first, then `length`. Test empty input.
+3. Folder and file names: no spaces, no typos, same capitals every time. The file name matches the class name.
+4. Code goes in `.java` files. `mistakes.md` is for lessons only.
+5. Skip loops use `while`, not `if`, and keep `left < right`.
+
 

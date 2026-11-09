@@ -50,8 +50,21 @@ if (arr == null || arr.length == 0) {
 **Takeaway:** understand the conditions, don't memorise the code.
 
 --------------------------------------------------------------------------
+## Day 3 - Nov 9, 2026: Prefix Sum, LeetCode 1480 Running Sum
 
-## Rules to remember (read before every session)
+**Confusion / mistakes**
+- Mixed up the LeetCode version and the normal version with `main`.
+- Added up the wrong positions when checking a range sum by hand (included position 0 by mistake).
+
+**Learned**
+- Java only forces file name = class name when the class is `public`. I still match them in my own programs.
+- Prefix sum: sum from `l` to `r` = `prefix[r] - prefix[l - 1]`. If `l` is 0, it is just `prefix[r]`.
+- A running `sum` variable is simpler than `prefix[i - 1]`, and handles an empty array without a crash.
+
+**Revise:** write Running Sum again from scratch, once with `main` and once in LeetCode style.
+------------------------------------------------------------------------------------------------
+
+# Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.
 2. Check `null` first, then `length`. Test empty input.
@@ -60,3 +73,4 @@ if (arr == null || arr.length == 0) {
 5. Skip loops use `while`, not `if`, and keep `left < right`.
 6. Class names start with a capital, method names with a lowercase letter.
 7. String: `s.length()`. Array: `arr.length` (arrays have no parentheses).
+8. File name matches the class name for my own programs. LeetCode files are named after the problem, and the class stays Solution.

@@ -62,7 +62,27 @@ if (arr == null || arr.length == 0) {
 - A running `sum` variable is simpler than `prefix[i - 1]`, and handles an empty array without a crash.
 
 **Revise:** write Running Sum again from scratch, once with `main` and once in LeetCode style.
-------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+## Day 4 - Nov 10, 2026: Range Sum, LeetCode 303 (OOP), ArrayList/HashSet
+
+**Confusion / mistakes**
+- Was confused about OOP in LeetCode 303: why there is a class, a constructor and no `main`.
+- was confused tht leetcode accepted both versions with and without main
+
+**OOP in LeetCode 303 (NumArray)**
+- Class = blueprint. LeetCode creates the object with `new NumArray(nums)`.
+- In the constructor, write `prefix = new int[...]`. With `int[]` in front it becomes a local variable that disappears, and `sumRange` sees nothing.
+- `sumRange` has no loop. It is one `if` and one subtraction.
+- LeetCode needs only the class. `main` is for my own file, to test it.
+
+**Learned**
+- HashSet `contains` is O(1). ArrayList `contains` is O(n), because it scans.
+- ArrayList keeps duplicates and order. HashSet removes duplicates.
+
+**Revise:** write LeetCode 303 again from scratch, then once more with `main`.
+
+------------------------------------------------------------------------------
 
 # Rules to remember (read before every session)
 

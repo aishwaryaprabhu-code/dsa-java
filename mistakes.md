@@ -83,6 +83,22 @@ if (arr == null || arr.length == 0) {
 **Revise:** write LeetCode 303 again from scratch, then once more with `main`.
 
 ------------------------------------------------------------------------------
+## Day 5 - Nov 11, 2026: Sliding Window, LeetCode 643, ArrayList
+
+**Confusion / mistakes**
+- Didn't quite understand the for loop in leetcode 643.
+- Forgot to save the early warm-up programs to GitHub. Fixed with `FrequencyCount`.
+
+**Learned**
+- Sliding window: new sum = old sum + entering number - leaving number.
+- Time: O(n) with a sliding window, O(n x k) if I re-add each window.
+- LeetCode 643: divide with `(double) maxSum / k`, and start `maxSum` from the first window's sum, not 0.
+- Array: `arr.length`, `arr[i]`. ArrayList: `list.size()`, `list.get(i)`, `list.add(x)`.
+- Use an array when the size is fixed. Use an `ArrayList` when it can change.
+- learnt for each loop
+
+**Revise:** write LeetCode 643 again from scratch on Nov 18.
+------------------------------------------------------------------------------
 
 # Rules to remember (read before every session)
 

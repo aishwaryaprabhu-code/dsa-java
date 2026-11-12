@@ -99,8 +99,21 @@ if (arr == null || arr.length == 0) {
 
 **Revise:** write LeetCode 643 again from scratch on Nov 18.
 ------------------------------------------------------------------------------
+## Day 6 - Nov 12, 2026: Binary Search, LeetCode 704
 
-# Rules to remember (read before every session)
+**Confusion / mistakes**
+- Mixed up `<` and `<=` in the loop condition.
+
+**Learned**
+- Binary search needs a **sorted** array. It throws away half the search area each round.
+- Time O(log n), space O(1).
+- Loop: `while (left <= right)`, `mid = left + (right - left) / 2`.
+- Move with `left = mid + 1` or `right = mid - 1`. Return `-1` if not found.
+- The search ends when `left > right`.
+
+**Revise:** write LeetCode 704 again from scratch on Nov 19.
+-------------------------------------------------------------------------------
+## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.
 2. Check `null` first, then `length`. Test empty input.
@@ -110,3 +123,4 @@ if (arr == null || arr.length == 0) {
 6. Class names start with a capital, method names with a lowercase letter.
 7. String: `s.length()`. Array: `arr.length` (arrays have no parentheses).
 8. File name matches the class name for my own programs. LeetCode files are named after the problem, and the class stays Solution.
+9. `mid = left + (right - left) / 2` - to calculate the mid this helps for large integer.

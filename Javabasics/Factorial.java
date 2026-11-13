@@ -17,3 +17,6 @@ class Factorial {
 //output:
  120
  24
+// complexities
+     time : O(n) - one recursive call for each value from n down to 1
+     space: O(n) - due to recurson stack

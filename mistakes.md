@@ -112,7 +112,22 @@ if (arr == null || arr.length == 0) {
 - The search ends when `left > right`.
 
 **Revise:** write LeetCode 704 again from scratch on Nov 19.
--------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+## Day 7 - Nov 13, 2026: Recursion, Factorial, LeetCode 509
+
+**Confusion / mistakes**
+- Read `factorial(n - 1)` as the number `n - 1` and got a wrong answer. It is a method call that returns a value.
+
+**Learned**
+- Recursion: a method calls itself on a smaller problem.
+- Every recursive method needs a **base case** (stop) and a **recursive case** (smaller call).
+- No base case causes a `StackOverflowError`.
+- Calls wait on the call stack, then answers return from the bottom up.
+- Tracing habit: write each call on its own line first (`factorial(4) = ?`), then work back up from the base case.
+
+**Revise:** write factorial again from scratch on Nov 20.
+------------------------------------------------------------------------------
 
 ## Rules to remember (read before every session)
 

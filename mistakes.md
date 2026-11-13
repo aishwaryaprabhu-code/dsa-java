@@ -113,6 +113,7 @@ if (arr == null || arr.length == 0) {
 
 **Revise:** write LeetCode 704 again from scratch on Nov 19.
 -------------------------------------------------------------------------------
+
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

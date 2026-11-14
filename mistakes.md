@@ -128,7 +128,24 @@ if (arr == null || arr.length == 0) {
 
 **Revise:** write factorial again from scratch on Nov 20.
 ------------------------------------------------------------------------------
+## Day 8 - Nov 14, 2026: Weekly test (LeetCode 344, 35, 121)
 
+**Confusion / mistakes**
+- 344: compile errors. Used `s.length()` on a `char[]` (arrays have no parentheses), used `int temp` for a char, and left out a closing `}`.
+- Struggle with brackets and with reading the question.
+
+**Learned**
+- Two pointers that meet: `left < right`. Binary search: `left <= right`.
+- Binary search ends with `left` at the insert position, so return `left'.
+- Declare a variable in the smallest place it is needed.
+
+**Before I code (4 steps, written as a comment)**
+1. Input  2. Output  3. The one rule that matters  4. Work the first example by hand.
+
+**Brackets:** type `{` and `}` together, indent every block, count them at the end.
+
+**Revise:** write 35 and 344 again from scratch on Nov 21.
+-----------------------------------------------------------------------------------
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

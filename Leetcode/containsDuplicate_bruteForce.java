@@ -16,4 +16,4 @@ class Solution {
 }
 
 // time complexity O(n^2)
-//not usefull for large arrays
+//not usefull for large arrays, so we prefer hashset

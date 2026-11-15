@@ -20,4 +20,4 @@ class Solution {
 
 //it dosent allow duplicate !
 //time complexity O(n)
-// it dosent use nested loops 
+// it dosent use nested loops  so its better than brute force

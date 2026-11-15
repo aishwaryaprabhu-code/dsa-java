@@ -20,5 +20,5 @@ class Solution {
     }
 }
 
-//tme complexity = O(n)
+//tme complexity = O(n).
 //doesnt use nested loop so best approach compared to brute force

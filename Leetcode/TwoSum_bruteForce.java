@@ -16,5 +16,5 @@ class Solution {
     }
 }
 
-//time complexity O(n^2)
-// not useful for large arrays
+//time complexity - O(n^2)
+// not useful for large array.

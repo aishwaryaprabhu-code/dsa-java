@@ -145,7 +145,22 @@ if (arr == null || arr.length == 0) {
 **Brackets:** type `{` and `}` together, indent every block, count them at the end.
 
 **Revise:** write 35 and 344 again from scratch on Nov 21.
------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+## Day 9 - Nov 16, 2026: Reverse String revisit, Linked Lists, LeetCode 206
+
+**Confusion / mistakes**
+- Linked list:the whole linked list structure, the implementation and the Listnode!.
+- reversing was little confusing
+
+**Learned**
+- Linked list = nodes, each with a value and a `next` arrow. The last points to `null`. No `arr[i]`, I must walk from `head`.
+- Reverse: save `next`, flip `curr.next = prev`, move `prev` and `curr` forward. Return `prev`.
+- Save `next` first, or the rest of the list is lost.
+- Time O(n), space O(1).
+
+**Revise:** write 206 again from scratch on Nov 23.
+-----------------------------------------------------------------------------
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

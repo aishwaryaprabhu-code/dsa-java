@@ -161,6 +161,20 @@ if (arr == null || arr.length == 0) {
 
 **Revise:** write 206 again from scratch on Nov 23.
 -----------------------------------------------------------------------------
+## Day 10 - Nov 17, 2026: Stacks, LeetCode 20, Git basics
+
+**Confusion / mistakes**
+- Wondered whether I can just `import java.util.Stack` instead of `ArrayDeque`. Both work. `ArrayDeque` is the one Java recommends, because `Stack` is an older class.
+
+**Learned**
+- Stack = LIFO 
+- `Deque<Integer> stack = new ArrayDeque<>();` or `Stack<Integer> stack = new Stack<>();`.
+- `pop()` on an empty stack crashes, so check `isEmpty()` first.
+- Valid Parentheses: push opening brackets, pop and match on closing ones, and the stack must be empty at the end.
+- Git = history on my computer. GitHub = online storage. Repo, commit, branch, push, pull, clone.
+
+**Revise:** LeetCode 20 on Nov 24.
+------------------------------------------------------------------------------
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

@@ -175,6 +175,20 @@ if (arr == null || arr.length == 0) {
 
 **Revise:** LeetCode 20 on Nov 24.
 ------------------------------------------------------------------------------
+## Day 11 - Nov 18, 2026: Queues, first medium (LeetCode 11), Git commands
+
+**Confusion / mistakes**
+- was little hard understannding and solving my first medium LC.
+
+**Learned**
+- Queue = FIFO. `add`, `poll`, `peek`, `isEmpty`. Stack = LIFO.
+- Container With Most Water: two pointers, move the pointer at the shorter line.
+- Area = min(height) x width. Time O(n), space O(1).
+
+**First medium:** had a tough start ,i took help coudnt sove whole myself
+
+**Revise:** LeetCode 11 again on Nov 25.
+------------------------------------------------------------------------------------------------------------
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

@@ -188,7 +188,22 @@ if (arr == null || arr.length == 0) {
 **First medium:** had a tough start ,i took help coudnt sove whole myself
 
 **Revise:** LeetCode 11 again on Nov 25.
-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+## Day 12 - Nov 19, 2026: Binary Search revisit, Group Anagrams (medium), Git diff
+
+**Confusion / mistakes**
+- today i couldnt understand anything , and i couldnt do anything on my own
+
+**Learned**
+- Anagrams give the same word when their letters are sorted, so use the sorted word as a HashMap key.
+- Map of `String -> List<String>`: add an empty list for a new key, then add the word.
+- `toCharArray()`, `Arrays.sort()`, `new String(chars)`, `map.values()`.
+- Git: `git diff` shows uncommitted changes. `.gitignore` lists files Git skips. Never commit passwords.
+
+**Second medium:**  needed a hint. I wanna do it agin tomorrow.
+
+**Revise:** LeetCode 49 again on Nov  20 and  26.
+--------------------------------------------------------------------------------------------------
 ## Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

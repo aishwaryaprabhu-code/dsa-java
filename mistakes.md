@@ -191,8 +191,23 @@ This file is where I write down the mistakes I make and the things I learn while
 **Revise:** LeetCode 155 on Nov 27.
 
 --------------------------------------------------------------------------------------------------
+## Day 15 - Nov 21: Weekly test (LeetCode 242, 167, 232)
 
-## Rules to remember (read before every session)
+**Mistakes / confusion**
+- 242: used a `for` loop over the String when I could sort it directly with `toCharArray()` and `Arrays.sort()`.
+- 242: compared Strings with `==`. Use `.equals`, because `==` checks if they are the same object, not the same letters.
+- 167: 1- based index was confusing
+- 232: the move() i took help.
+
+**Learned**
+- 242: two ways. Sort both words and compare (O(n log n)), or count letters in a 26-box array (O(n), O(1) space).
+- 167: the array is sorted, so use two pointers. Sum too small: `left++`. Sum too big: `right--`. Return positions + 1.
+- 232: use two stacks to get FIFO. `in` takes new items, and `out` hands them out, reversed. Move items only when `out` is empty.
+
+**Revise:** write 242, 167 and 232 again from scratch on Nov 28.
+
+----------------------------------------------------------------------------------------------------
+# Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.
 2. Check `null` first, then `length`. Test empty input.
@@ -207,3 +222,5 @@ This file is where I write down the mistakes I make and the things I learn while
 11. In binary search, jump with `left = mid + 1` and `right = mid - 1`.
 12. Before coding, write: input, output, the one rule, the first example by hand.
 13. Check `isEmpty()` before `pop()` or `poll()`.
+15. Compare Strings with `.equals`, never `==`.
+16. `Arrays.sort` has an s, and needs `import java.util.Arrays;`.

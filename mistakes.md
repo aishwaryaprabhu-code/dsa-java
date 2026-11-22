@@ -207,6 +207,15 @@ This file is where I write down the mistakes I make and the things I learn while
 **Revise:** write 242, 167 and 232 again from scratch on Nov 28.
 
 ----------------------------------------------------------------------------------------------------
+## Day 16 - Nov 22: Linked list, valid palindrome  revisit
+**Mistakes / confusion**
+- lower case error in valid plaindrome
+**Learned**
+- Linked list reverse: save `next`, flip `curr.next = prev`, move forward, return `prev`.
+- I need to name the pattern before I code. `patterns.md` is my "when to use what" sheet.
+
+**Revise:** LeetCode 206 again on Nov 29.
+----------------------------------------------------------------------------------------------------
 # Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

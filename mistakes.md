@@ -216,6 +216,20 @@ This file is where I write down the mistakes I make and the things I learn while
 
 **Revise:** LeetCode 206 again on Nov 29.
 ----------------------------------------------------------------------------------------------------
+## Day 17 - Nov 23: Valid Parentheses revisit, trees, LeetCode 104
+**Mistakes / confusion**
+- 104 -> the depth calculation was little confusing.
+- revist -> i wrote the code correctly but it still showed error idk why!
+
+**Learned**
+- A tree node has a `left` and a `right` child. A node with no children is a leaf. `null` means no child.
+- Walking a tree uses recursion, and the base case is `null`.
+- Preorder: root, left, right. Inorder: left, root, right. Postorder: left, right, root.
+- Max depth = 1 + the bigger of the two children's depths. Time O(n).
+- `maxDepth(root.left)` is a call that returns a number, not arithmetic.
+
+**Revise:** LeetCode 104 on Nov 30.
+-----------------------------------------------------------------------------------------------------
 # Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

@@ -14,4 +14,4 @@
 | Matching brackets, last opened closes first | Stack | Valid Parentheses |
 | Need the minimum instantly | A second helper stack | Min Stack |
 | Process in order of arrival | Queue | Queue using Stacks |
-| Chain of nodes, reverse or walk it | `prev`, `curr`, `next` | Reverse Linked List |
+| Chain of nodes, reverse or walk it | `prev`, `curr`, `next` | Reverse Linked List |.

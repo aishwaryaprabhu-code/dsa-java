@@ -227,8 +227,17 @@ This file is where I write down the mistakes I make and the things I learn while
 - Preorder: root, left, right. Inorder: left, root, right. Postorder: left, right, root.
 - Max depth = 1 + the bigger of the two children's depths. Time O(n).
 - `maxDepth(root.left)` is a call that returns a number, not arithmetic.
-
 **Revise:** LeetCode 104 on Nov 30.
+-----------------------------------------------------------------------------------------------------
+## Day 18 - Nov 24: Container With Most Water revisit, LeetCode 226
+**Mistakes / confusion**
+- revist- i forgot to write the increment part fofr left and right
+**Learned**
+- Invert a tree: at each node swap `left` and `right` using a `temp`, then recurse on both children.
+- Base case: `null` returns `null`. Time O(n), space O(h).
+- Container With Most Water: move the pointer at the shorter line.
+
+**Revise:** LeetCode 226 on Dec 1.
 -----------------------------------------------------------------------------------------------------
 # Rules to remember (read before every session)
 

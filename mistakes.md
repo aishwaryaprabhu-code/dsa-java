@@ -239,6 +239,17 @@ This file is where I write down the mistakes I make and the things I learn while
 
 **Revise:** LeetCode 226 on Dec 1.
 -----------------------------------------------------------------------------------------------------
+### Day 19 - Nov 25: Group Anagrams revisit, LeetCode 100 Same Tree
+**Mistakes / confusion**
+- Group Anagrams: confused about `containsKey` and about putting a new `ArrayList` into the map.
+**Learned**
+- `map.containsKey(key)` asks "is this key already in the map?" It returns true or false.
+- A map value can be a list. For a new key, first `put(key, new ArrayList<>())`, then `map.get(key).add(word)`.
+- Same Tree: both `null` means true, only one `null` means false, different values means false, otherwise check left and right with '&&'.
+- Check for `null` before reading `.val`, or it crashes with a `NullPointerException`.
+
+**Revise:** Group Anagrams on Nov 26 (without looking at the code). Same Tree on Dec 2, from scratch.
+-----------------------------------------------------------------------------------------------------
 # Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

@@ -210,6 +210,7 @@ This file is where I write down the mistakes I make and the things I learn while
 ## Day 16 - Nov 22: Linked list, valid palindrome  revisit
 **Mistakes / confusion**
 - lower case error in valid plaindrome
+
 **Learned**
 - Linked list reverse: save `next`, flip `curr.next = prev`, move forward, return `prev`.
 - I need to name the pattern before I code. `patterns.md` is my "when to use what" sheet.
@@ -242,6 +243,7 @@ This file is where I write down the mistakes I make and the things I learn while
 ### Day 19 - Nov 25: Group Anagrams revisit, LeetCode 100 Same Tree
 **Mistakes / confusion**
 - Group Anagrams: confused about `containsKey` and about putting a new `ArrayList` into the map.
+
 **Learned**
 - `map.containsKey(key)` asks "is this key already in the map?" It returns true or false.
 - A map value can be a list. For a new key, first `put(key, new ArrayList<>())`, then `map.get(key).add(word)`.

@@ -15,5 +15,4 @@
 | Need the minimum instantly | A second helper stack | Min Stack |
 | Process in order of arrival | Queue | Queue using Stacks |
 | Chain of nodes, reverse or walk it | `prev`, `curr`, `next` | Reverse Linked List |.
-| A tree, and a node needs info from both children
-The same action at every node of a tree| Recursion with the base case `null` | Maximum Depth of Binary Tree, Invert Binary Tree |
+| A tree, and a node needs info from both children,The same action at every node of a tree| Recursion with the base case `null` | Maximum Depth of Binary Tree, Invert Binary Tree |

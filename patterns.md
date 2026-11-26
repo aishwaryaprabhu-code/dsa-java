@@ -18,3 +18,4 @@
 | A tree, and a node needs info from both children | Recursion with the base case `null` | Maximum Depth of Binary Tree|
 | The same action at every node of a tree | Recursion with the base case `null`| Invert Binary Tree |
 | Compare two trees node by node | Recursion on both trees together, with `null` checks first | Same Tree |
+| Check if a tree is a mirror of itself | A helper method on two nodes, crossing left with right | Symmetric Tree |

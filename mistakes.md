@@ -252,6 +252,18 @@ This file is where I write down the mistakes I make and the things I learn while
 
 **Revise:** Group Anagrams on Nov 26 (without looking at the code). Same Tree on Dec 2, from scratch.
 -----------------------------------------------------------------------------------------------------
+## Day 20 - Nov 26: Min Stack revisit, LeetCode 101 Symmetric Tree
+**Mistakes / confusion**
+- 101-> little confused aabout the 2 methods, but i could understand the flow of code.
+
+**Learned**
+- Symmetric Tree is Same Tree with a twist: compare `a.left` with `b.right` and `a.right` with `b.left`.
+- A helper method is needed when the check takes two nodes but the problem gives one root.
+- Min Stack: the second stack tracks the minimums, so `getMin` is O(1).
+
+**Revise:** LeetCode 101 and LeetCode 100 from scratch on Dec 2.
+-----------------------------------------------------------------------------------------------------
+
 # Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

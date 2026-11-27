@@ -263,6 +263,20 @@ This file is where I write down the mistakes I make and the things I learn while
 
 **Revise:** LeetCode 101 and LeetCode 100 from scratch on Dec 2.
 -----------------------------------------------------------------------------------------------------
+## Day 21 - Nov 27: First mock test (LeetCode 387, 112, 1047)
+**Mistakes / confusion**
+- 387 and 112: solved, but I needed a little help.
+- 1047: no idea at first. I couldn't see that deleting a pair can make a new pair, or that I need the last kept letter.
+
+**Learned**
+- 387: count letters first, then find the first one with a count of 1.
+- 112: subtract the node value from the target. At a leaf, check what remains. Use `||` between the two sides.
+- 1047: stack idea. Same letter as the top means pop, otherwise push. A `StringBuilder` works as the stack.
+
+**Result:** 387: Accepted with help. 112: Accepted with help. 1047: not done, doing it on Nov 28.
+
+**Revise:** 387 and 112 again from scratch on Dec 4. 1047 on Nov 28, then again on Dec 5.
+-----------------------------------------------------------------------------------------------------
 
 # Rules to remember (read before every session)
 

@@ -277,7 +277,19 @@ This file is where I write down the mistakes I make and the things I learn while
 
 **Revise:** 387 and 112 again from scratch on Dec 4. 1047 on Nov 28, then again on Dec 5.
 -----------------------------------------------------------------------------------------------------
+## Day 22 - Nov 28: LeetCode 1047 revisit, Two Sum II (167)
+**Mistakes / confusion**
+- 1047: I had no clue at first. I didn't see that deleting a pair can make a new pair, so I need to compare with the **last kept** letter.
 
+**Learned**
+- 1047: stack idea. Same letter as the top means pop, otherwise push. A `StringBuilder` works as the stack: `append` is push, `deleteCharAt(last)` is pop, `charAt(last)` is peek.
+- Check `sb.length() > 0` before reading the last letter, so it can't crash.
+- 167: sorted array, so use two pointers. Sum too small: `left++`. Sum too big: `right--`. Return positions + 1.
+
+**Result:** 1047: accepted with help.
+
+**Revise:** 1047 again from scratch on Dec 5.
+-------------------------------------------------------------------------------------------------------------
 # Rules to remember (read before every session)
 
 1. Two Sum: check the map first, then `put`.

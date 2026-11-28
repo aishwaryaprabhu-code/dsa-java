@@ -20,3 +20,4 @@
 | Compare two trees node by node | Recursion on both trees together, with `null` checks first | Same Tree |
 | Check if a tree is a mirror of itself | A helper method on two nodes, crossing left with right | Symmetric Tree |
 | Remove or match neighbours, where removing one makes a new pair | Stack, or a StringBuilder used as a stack | Remove All Adjacent Duplicates in String |
+| Remove or match neighbours, where removing one makes a new pair | Stack, or a StringBuilder used as a stack | Remove All Adjacent Duplicates in String |
